@@ -19,16 +19,16 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <Link to="#0">Contact</Link>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/this.cristine/">Instagram</a>
         </li>
         <li>
-          <Link to="#0">About us</Link>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/this-cristine/">Linkedin</a>
         </li>
         <li>
-          <Link to="#0">FAQ's</Link>
+          <Link to="#0">Email (I never check it, sorry)</Link>
         </li>
         <li>
-          <Link to="#0">Support</Link>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/thaiscristine/">GitHub</a>
         </li>
       </ul>
     </nav>

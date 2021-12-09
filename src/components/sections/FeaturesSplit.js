@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'ACQUIRING CAPITAL',
+    paragraph: 'Time to make money! 💰 There are quite many possibilities to explore when the idea is to get money. Investors, government, "angels", family etc.'
   };
 
   return (
@@ -67,13 +67,18 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Nice interactive intro. Thanks Vilma, Lucas and Emily
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Okay, but how?
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  You might be thinking how to access an ivestor to inject some money in your company. We ended up agreeing, 
+                  as a team, that the easiest and fastest way to make some kind of inital capital would be to moonlight. 
+                  If you are not native English speaker, you are like me and you have no idea what means to moonlight. 
+                  I got you, it means to do some aditional job on your regular schedule and it can also mean that this 
+                  extra work is not necessarely legal activity with all taxes paid (that's not how we want to use this word).
+                  
                   </p>
               </div>
               <div className={
@@ -83,7 +88,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/aqcuiring-capital.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -93,39 +98,17 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Quite many new terms here. I hope everyone got it.
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  There is more than only moonlighting..
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
-                  alt="Features split 02"
-                  width={528}
-                  height={396} />
-              </div>
-            </div>
+                  If moonlight is still unclear: shitty job. Although, I don't like to call any job like that, so let's stick with moonlight because this portfolio is mine and I decide :D .
+                Other options are Bootstrapping / Family Donations / Government Grants / Business Loans /
+                Crowdfunding / Angel Investors / Venture Capitalists. 
 
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  My takeaway was "be creative". Living in a big nordic city there are tons of possiblities to our team raise money.
                   </p>
               </div>
               <div className={
@@ -135,8 +118,8 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
-                  alt="Features split 03"
+                  src={require('./../../assets/images/options-acquire-capital.png')}
+                  alt="Features split 02"
                   width={528}
                   height={396} />
               </div>
