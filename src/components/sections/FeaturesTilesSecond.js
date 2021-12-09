@@ -44,8 +44,8 @@ const FeaturesTilesSecond = ({
   );
 
   const sectionHeader = {
-    title: 'Budget, budget, budget..',
-    paragraph: 'To understand any term or methodology that would come in the following classes of Money in Business, we needed first to understand what budgeting means. Budget is to estimate your spending, and have a tool to predict the revenue in a nutshell'
+    title: 'International trade',
+    paragraph: 'It was excellent to have people introducting the theme that are originally from countries out of EU because we could have a wider view of international trade out of EU'
   };
   const sectionSecond = {
     // title: 'Budget, budget, budget..',
@@ -67,7 +67,7 @@ const FeaturesTilesSecond = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/icons8-budget-60.png')}
+                      src={require('./../../assets/images/icons8-america-48.png')}
                       alt="Features tile icon 01"
                       width={64}
                       height={64} />
@@ -75,11 +75,11 @@ const FeaturesTilesSecond = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Forecast
-                    </h4>
+                    Who pays the taxes?
+                  </h4>
                   <p className="m-0 text-sm">
-                    I believe this is my main takaway about budgeting. We need to have an estimation of revenue and expenses over an specific period we are making the budget.
-                    </p>
+                    Tax is payed in the destination country
+                  </p>
                 </div>
               </div>
             </div>
@@ -89,7 +89,7 @@ const FeaturesTilesSecond = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/icons8-budget-100.png')}
+                      src={require('./../../assets/images/icons8-exchange-64.png')}
                       alt="Features tile icon 02"
                       width={64}
                       height={64} />
@@ -97,11 +97,10 @@ const FeaturesTilesSecond = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Personal budget
+                  Exporting and importing
                     </h4>
                   <p className="m-0 text-sm">
-                    It was interesting to see that many of us is quite used to the term and they have their own ways of running their personal budget. Apps, sheets and "formulas" were shared. 
-                    {/* I made a note in my notebook about emegence fund and it was the trigger to my book choice. */}
+                    Export = sell your product to other country<br /> Import = Buy a product to your country from other coutry
                     </p>
                 </div>
               </div>
