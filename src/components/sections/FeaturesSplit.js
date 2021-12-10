@@ -74,9 +74,9 @@ const FeaturesSplit = ({
                   </h3>
                 <p className="m-0">
                   You might be thinking how to access an ivestor to inject some money in your company. We ended up agreeing, 
-                  as a team, that the easiest and fastest way to make some kind of inital capital would be to moonlight. 
+                  as a team, that the easiest and fastest way to make some kind of initial capital would be to moonlight. 
                   If you are not native English speaker, you are like me and you have no idea what means to moonlight. 
-                  I got you, it means to do some aditional job on your regular schedule and it can also mean that this 
+                  I got you, it means to do some additional job on your regular schedule and it can also mean that this 
                   extra work is not necessarely legal activity with all taxes paid (that's not how we want to use this word).
                   
                   </p>

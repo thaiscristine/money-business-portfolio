@@ -6,6 +6,7 @@ import FeaturesTilesSecond from '../components/sections/FeaturesTilesSecond';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import FeaturesSplitSecond from '../components/sections/FeaturesSplitSecond';
 import FeaturesSplitThird from '../components/sections/FeaturesSplitThird';
+import FeaturesSplitFourth from '../components/sections/FeaturesSplitFourth';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
 
@@ -21,6 +22,7 @@ const Home = () => {
       <FeaturesSplitSecond invertMobile topDivider imageFill className="illustration-section-02" />
       <FeaturesSplitThird invertMobile topDivider imageFill className="illustration-section-02" />
       <FeaturesTilesSecond />
+      <FeaturesSplitFourth invertMobile topDivider imageFill className="illustration-section-02" />
     </>
   );
 }

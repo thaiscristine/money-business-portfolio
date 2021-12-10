@@ -55,10 +55,6 @@ const FeaturesTilesSecond = ({
     title: 'VAT',
     paragraph: "We already talked about taxes earlier but this time, it's specifically VAT. The tax on the consumption, it means that every product you purchase, a percentage is being paid for the government."
   };
-  const sectionSecond2 = {
-    // title: 'Budget, budget, budget..',
-    paragraph: "I think the main thing when doing international trades is to have a good documentation of the products and updated documents of your own company because it can be necessary during the process."
-  };
   
   return (
     <section
@@ -216,8 +212,6 @@ const FeaturesTilesSecond = ({
               </div>
             </div>
 
-            
-            <SectionHeader data={sectionSecond2} className="center-content spacer-48"  />
           </div>
         </div>
       </div>
