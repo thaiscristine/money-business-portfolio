@@ -54,8 +54,8 @@ const FeaturesSplitFourth = ({
     paragraph: "This was my group intro so I should know a lot :D Let's see how it goes "
   };
   const sectionHeader2 = {
-    title: 'Financial Key Figures',
-    paragraph: "This was my group intro so I should know a lot :D Let's see how it goes "
+    title: 'Financial key figures = Financial ratios',
+    paragraph: "Financial key figures or Financial ratios are numbers calculated based in information from the balance sheets or similar to create analysis based in them. For example, in the introduction they showed effeciency ratios, which measures how well the company is utilizing its assets."
   };
 
   return (
@@ -107,16 +107,13 @@ const FeaturesSplitFourth = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  I'm quite sure the activity was about accounting
+                  What?
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Visit to Tribe
+                  Let's try again
                   </h3>
                 <p className="m-0">
-                  I had been in Tribe few times in my first year in Tampere and it was nice to get back there now. It's a new office but
-                  the environment mood seems to be the same. Friendly, active and supportive people to talk and share ideas. I don't think
-                  we did a good work with accounting on that day but to be in some other place other than Proakatemia with the team was quite positive.
-                  
+                  These finantial ratios are guides for financial decisions. They make transparent, through formulas, situations about the company performance. It can be connected to investments, assets, growth, profitability, margins etc.
                   </p>
               </div>
               <div className={
@@ -126,7 +123,7 @@ const FeaturesSplitFourth = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/Tribe_p6-2.jpeg')}
+                  src={require('./../../assets/images/break.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -136,16 +133,17 @@ const FeaturesSplitFourth = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Why do I need to pay so much?
+                  Okay.. Now it's starting to make sense
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Kela, ratikka, schools, hospitals..
+                  Hard subject but it gets better
                   </h3>
                 <p className="m-0">
-                  This intro brought up lots of discussions and loopholes was probably the hot subject. More than that, I think it was good
-                  to emphasize the positve aspects of a progressive tax system. At first, it can be seen as a quite negative system where
-                  you need to pay lots of taxes but actually, it's amazing to see infrastructure and social services trully working. 
-                  Paid by the people for the people as it should be.
+                  The introduction team did quite good job explaining what is this salad of words because it is not easy. 
+                  For me, it started to make more sense when I stoped to try to understand the formulas and focused to 
+                  understand what is the goal of having these financial key figures. After that, I can think what I want to check, for example, growth. 
+                  The next step would be literaly search on google "financial key figure growth" and find the formula I want to use. 
+
                   </p>
               </div>
               <div className={
@@ -155,7 +153,7 @@ const FeaturesSplitFourth = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/positive-1.png')}
+                  src={require('./../../assets/images/key-figure.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />

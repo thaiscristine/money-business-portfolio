@@ -3,6 +3,7 @@ import React from 'react';
 import Hero from '../components/sections/Hero';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
 import FeaturesTilesSecond from '../components/sections/FeaturesTilesSecond';
+import FeaturesTilesThird from '../components/sections/FeaturesTilesThird';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import FeaturesSplitSecond from '../components/sections/FeaturesSplitSecond';
 import FeaturesSplitThird from '../components/sections/FeaturesSplitThird';
@@ -23,6 +24,7 @@ const Home = () => {
       <FeaturesSplitThird invertMobile topDivider imageFill className="illustration-section-02" />
       <FeaturesTilesSecond />
       <FeaturesSplitFourth invertMobile topDivider imageFill className="illustration-section-02" />
+      <FeaturesTilesThird />
     </>
   );
 }
