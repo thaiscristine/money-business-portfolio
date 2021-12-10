@@ -49,17 +49,25 @@ const FeaturesTilesSecond = ({
   };
   const sectionSecond = {
     // title: 'Budget, budget, budget..',
-    paragraph: "In this class we learned we should read a book related to finance and write an essay about it. I confess it was quite intimidating task for me because I haven't read so much this year and now I would need to find time to read about a subject that wouldn't be my reading priority."
+    paragraph: "I think the main thing when doing international trades is to have a good documentation of the products and updated documents of your own company because it can be necessary during the process."
   };
-
+  const sectionHeader2 = {
+    title: 'VAT',
+    paragraph: "We already talked about taxes earlier but this time, it's specifically VAT. The tax on the consumption, it means that every product you purchase, a percentage is being paid for the government."
+  };
+  const sectionSecond2 = {
+    // title: 'Budget, budget, budget..',
+    paragraph: "I think the main thing when doing international trades is to have a good documentation of the products and updated documents of your own company because it can be necessary during the process."
+  };
+  
   return (
     <section
       {...props}
       className={outerClasses}
     >
-      <div className="container">
+      <div className="container has-top-divider">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <SectionHeader data={sectionHeader} className="center-content has-top-divider spacer-64" />
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom">
@@ -111,7 +119,7 @@ const FeaturesTilesSecond = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/icons8-budget-65.png')}
+                      src={require('./../../assets/images/icons8-flag-of-europe-96.png')}
                       alt="Features tile icon 03"
                       width={64}
                       height={64} />
@@ -119,33 +127,41 @@ const FeaturesTilesSecond = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Company budget
+                  Conditions in the EU
                     </h4>
                   <p className="m-0 text-sm">
-                    It's a bigger budget compared to personal budget because company budget has many different factors that need to be considered while budgeting for a corporation. Such as available capital, business activities etc.
+                    There are minimun conditions to be able to export in EU. Also, a EORI registration. It's some kind of business ID connected to exporting.
                     </p>
                 </div>
               </div>
             </div>
+
+            
+            <SectionHeader data={sectionSecond} className="center-content spacer-48"  />
+          </div>
+        </div>
+        <div className={innerClasses}>
+          <SectionHeader data={sectionHeader2} className="center-content has-top-divider spacer-64" />
+          <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/icons8-budget-64.png')}
-                      alt="Features tile icon 04"
+                      src={require('./../../assets/images/icons8-taxes-130.png')}
+                      alt="Features tile icon 01"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Project budget
-                    </h4>
+                    Where is it?
+                  </h4>
                   <p className="m-0 text-sm">
-                    The project budget works somehow in the same way as the earlier options. In this case, we don't necessarely get a revenue but we could have for example, incomes to support the budget.
-                    </p>
+                    In Finland, the VAT is always already included in the price you pay. It's possible to see it in the receipt.
+                  </p>
                 </div>
               </div>
             </div>
@@ -155,26 +171,53 @@ const FeaturesTilesSecond = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/icons8-investing-64.png')}
-                      alt="Features tile icon 05"
+                      src={require('./../../assets/images/icons8-user-groups-96.png')}
+                      alt="Features tile icon 02"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Bond/Share
+                  VAT groups
                     </h4>
                   <p className="m-0 text-sm">
-                    There is a fancy explanation for it but let's go with: A bond is basically a loan from an investor and a share is a single unit of ownership in a company.
+                    VAT is not always the same percentage. It is changed by the group that the product belongs: 
+                    - 10% Entrances, Books, Medicine
+                    - 14% Food,restaurantservices
+                    - 24% Everything else
+                    - 0% B2B construction work, importing out of eu
+
                     </p>
                 </div>
               </div>
             </div>
 
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/icons8-among-us-150.png')}
+                      alt="Features tile icon 03"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                  VAT DEDUCTION
+                    </h4>
+                  <p className="m-0 text-sm">
+                    It's possible to get VAT deduction if the purchase is made by the company for the company's use or
+                    investing in real state and VAT was already paid by the earlier owner.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             
-            
-            <SectionHeader data={sectionSecond} className="center-content spacer-48"  />
+            <SectionHeader data={sectionSecond2} className="center-content spacer-48"  />
           </div>
         </div>
       </div>
